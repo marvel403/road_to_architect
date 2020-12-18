@@ -4,6 +4,7 @@
 ## 语言
 ### Go
   - [Go阅读清单](https://github.com/qichengzx/gopher-reading-list-zh_CN)
+  - [Go自己整理](languages/go.md)
 
 ## 系统设计
 ### 设计模式
