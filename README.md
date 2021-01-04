@@ -20,6 +20,7 @@
   - [awesome-system-design](https://github.com/madd86/awesome-system-design)
   - 一致性哈希
   - 分布式id唯一性
+  - [并发模型](system_design/others.md)
 
 ## 数据库
 ### MySQL
