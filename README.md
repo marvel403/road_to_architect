@@ -10,6 +10,8 @@
 
 ## 系统设计
 ### 设计模式
+- #### DDD 领域驱动设计
+  - [美团实践](https://tech.meituan.com/2017/12/22/ddd-in-practice.html)
 
 ### 微服务
 - #### 开发框架
