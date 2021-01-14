@@ -1,6 +1,8 @@
 
 # road_to_architect
 
+## 思考
+  - [thoughts](thoughts/index.md)
 ## 语言
 ### Go
   - [Go阅读清单](https://github.com/qichengzx/gopher-reading-list-zh_CN)
