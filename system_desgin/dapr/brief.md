@@ -15,6 +15,12 @@ dapr更多的关注更快更简单的搭建微服务，为开发者服务
  - metric收集；
  - 分布式tracing；
  - 重试等调用控制
+
+不同点：
+ - dapr不提供流量控制，如路由或分流(ingress干)
+ - dapr提供更具扩展性的tracing和metric，基于s2s innovation和pub/sub。
+
+![avatar](https://docs.dapr.io/images/service-mesh.png)
  
 ## 基础概念
 ### [dapr service](https://docs.dapr.io/concepts/dapr-services/)
@@ -43,5 +49,13 @@ dapr更多的关注更快更简单的搭建微服务，为开发者服务
     - Secrets
     - Configuration
 
-
+### [components](https://docs.dapr.io/concepts/components-concept/)
+会被building block和application使用到的模块化功能
+ - state store：状态存储，kv数据存储
+ - name resolution：服务发现
+ - pub/sub brokers：发布订阅服务端
+ - bindings：资源绑定
+ - secret stores：秘钥存储
+ - configuration stores：配置存储
+ - middleware：允许开发者自定义中间件，在http请求中附加处理。如：认证、加解密等。
 
